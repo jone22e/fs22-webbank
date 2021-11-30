@@ -32,7 +32,7 @@ include "vendor2/supertypes/autoload.php";
 
 <div class="app app-loaded"><!-- START APP CONTAINER -->
     <div class="app-container"><!-- START APP HEADER -->
-        <div class="app-header">
+        <div class="app-header" style="background-color: #F8D117">
             <div class="container container-boxed">
                 <ul class="app-header-buttons visible-mobile">
                     <li><a href="#" class="btn btn-link btn-icon" data-navigation-horizontal-toggle="true"><span
