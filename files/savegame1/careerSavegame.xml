@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<careerSavegame revision="2" valid="true">
+    <settings>
+        <savegameName>Cebola Server</savegameName>
+        <creationDate>2021-11-25</creationDate>
+        <mapId>MapUS</mapId>
+        <mapTitle>Elmcreek</mapTitle>
+        <saveDateFormatted>30/11/2021</saveDateFormatted>
+        <saveDate>2021-11-30</saveDate>
+        <resetVehicles>false</resetVehicles>
+        <trafficEnabled>true</trafficEnabled>
+        <stopAndGoBraking>true</stopAndGoBraking>
+        <trailerFillLimit>false</trailerFillLimit>
+        <automaticMotorStartEnabled>false</automaticMotorStartEnabled>
+        <growthMode>1</growthMode>
+        <plannedDaysPerPeriod>1</plannedDaysPerPeriod>
+        <fruitDestruction>true</fruitDestruction>
+        <plowingRequiredEnabled>false</plowingRequiredEnabled>
+        <stonesEnabled>true</stonesEnabled>
+        <weedsEnabled>true</weedsEnabled>
+        <limeRequired>true</limeRequired>
+        <isSnowEnabled>true</isSnowEnabled>
+        <fuelUsageLow>false</fuelUsageLow>
+        <helperBuyFuel>false</helperBuyFuel>
+        <helperBuySeeds>false</helperBuySeeds>
+        <helperBuyFertilizer>false</helperBuyFertilizer>
+        <helperSlurrySource>1</helperSlurrySource>
+        <helperManureSource>1</helperManureSource>
+        <densityMapRevision>3</densityMapRevision>
+        <terrainTextureRevision>1</terrainTextureRevision>
+        <terrainLodTextureRevision>2</terrainLodTextureRevision>
+        <splitShapesRevision>2</splitShapesRevision>
+        <tipCollisionRevision>2</tipCollisionRevision>
+        <placementCollisionRevision>2</placementCollisionRevision>
+        <navigationCollisionRevision>2</navigationCollisionRevision>
+        <mapDensityMapRevision>1</mapDensityMapRevision>
+        <mapTerrainTextureRevision>1</mapTerrainTextureRevision>
+        <mapTerrainLodTextureRevision>1</mapTerrainLodTextureRevision>
+        <mapSplitShapesRevision>2</mapSplitShapesRevision>
+        <mapTipCollisionRevision>2</mapTipCollisionRevision>
+        <mapPlacementCollisionRevision>2</mapPlacementCollisionRevision>
+        <mapNavigationCollisionRevision>3</mapNavigationCollisionRevision>
+        <difficulty>3</difficulty>
+        <economicDifficulty>2</economicDifficulty>
+        <dirtInterval>3</dirtInterval>
+        <timeScale>0.500000</timeScale>
+        <autoSaveInterval>15.000000</autoSaveInterval>
+    </settings>
+    <guidedTour active="false" currentStepIndex="0"/>
+    <map>
+        <foundHelpIcons>00000000000000000000</foundHelpIcons>
+    </map>
+    <statistics>
+        <money>50096195</money>
+        <playTime>3182.248535</playTime>
+    </statistics>
+    <slotSystem slotUsage="454"/>
+    <mapsSplitShapeFileIds count="1">
+        <id id="0"/>
+    </mapsSplitShapeFileIds>
+    <mod modName="FS22_claasDominator108SL" title="Claas Dominator 108 SL" version="1.0.0.0" required="false" fileHash="1654b99a2070f0c87be1f44284091d0b"/>
+    <mod modName="FS22_strautmannSEK802" title="Strautmann SEK 802" version="1.0.0.0" required="false" fileHash="acf2cebedf04dafa98ae602a0dd66263"/>
+    <mod modName="FS22_caseIHMagnum7240Pro" title="CaseIH Magnum 7200 Pro Series" version="1.0.0.0" required="false" fileHash="220e0adc537eed057bf5fbfd1cdbb96c"/>
+    <mod modName="FS22_fiat1300dt" title="Fiat 1300 DT" version="1.0.0.0" required="false" fileHash="66c8f3f22672c735aeabcee778a5d64a"/>
+    <mod modName="FS22_newHollandW190D" title="New Holland W190 D" version="1.0.0.0" required="false" fileHash="5c406378f18c755497cba1bd23994ac3"/>
+    <mod modName="FS22_vaderstadSpiritR300S" title="Väderstad Spirit R300S" version="1.0.0.0" required="false" fileHash="ed70089535db666a1fc8a1bcd86a0c8b"/>
+</careerSavegame>

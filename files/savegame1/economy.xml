@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<economy>
+    <fillTypes>
+        <fillType fillType="WHEAT" totalAmount="199396"/>
+        <fillType fillType="BARLEY" totalAmount="87367"/>
+        <fillType fillType="OAT" totalAmount="104850"/>
+        <fillType fillType="CANOLA" totalAmount="304630"/>
+        <fillType fillType="SORGHUM" totalAmount="205665"/>
+        <fillType fillType="SOYBEAN" totalAmount="65344"/>
+        <fillType fillType="DRYGRASS_WINDROW" totalAmount="32575"/>
+    </fillTypes>
+</economy>

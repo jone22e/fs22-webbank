@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<sales>
+    <item timeLeft="15" isGenerated="true" xmlFilename="data/vehicles/johnDeere/cp690/cp690.xml" age="29" price="353006" damage="0.344667" wear="0.802323" operatingTime="133186.859375">
+        <boughtConfiguration name="wheel" id="MITAS_DEFAULT"/>
+    </item>
+    <item timeLeft="13" isGenerated="true" xmlFilename="data/vehicles/prinoth/sf900/sf900.xml" age="13" price="16608" damage="0.283562" wear="0.211768" operatingTime="25067.929688"/>
+    <item timeLeft="9" isGenerated="true" xmlFilename="data/vehicles/kemper/plus360/plus360.xml" age="31" price="29595" damage="0.784984" wear="0.419686" operatingTime="100342.625000"/>
+    <item timeLeft="30" isGenerated="true" xmlFilename="data/vehicles/capello/helianthus5700/helianthus5700.xml" age="37" price="10317" damage="0.813694" wear="0.235964" operatingTime="154945.187500"/>
+    <item timeLeft="23" isGenerated="false" xmlFilename="C:/Users/AGIL/Documents/My Games/FarmingSimulator2022/mods/FS22_vaderstadSpiritR300S/spiritR300S.xml" age="289" price="9131" damage="0.507511" wear="1.000000" operatingTime="41888.214844">
+        <boughtConfiguration name="fillUnit" id="1"/>
+        <boughtConfiguration name="cover" id="1"/>
+        <boughtConfiguration name="fillVolume" id="1"/>
+        <boughtConfiguration name="wheel" id="1"/>
+        <boughtConfiguration name="folding" id="1"/>
+    </item>
+</sales>

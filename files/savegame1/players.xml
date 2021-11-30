@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<players>
+    <player uniqueUserId="lYbaJtXYaHev5v3l+A0/SGkC+4v9xdCVV3qqLtwF5WE=">
+        <style filename="dataS/character/humans/player/player01.xml" beardConfig="0" bottomConfig="1" bottomConfigColor="1" faceConfig="1" faceConfigColor="1" footwearConfig="1" footwearConfigColor="1" glassesConfig="0" glovesConfig="0" hairStyleConfig="2" hairStyleConfigColor="6" headgearConfig="0" mustacheConfig="0" onepieceConfig="0" topConfig="4" topConfigColor="1" facegearConfig="0"/>
+    </player>
+    <player uniqueUserId="HwyoywdNxTEiFXkWgYJ80q3k7PxO5blyIQJIZTOmvDI=">
+        <style filename="dataS/character/humans/player/player01.xml" beardConfig="31" beardConfigColor="6" bottomConfig="3" bottomConfigColor="4" faceConfig="1" faceConfigColor="1" footwearConfig="6" footwearConfigColor="65" glassesConfig="0" glovesConfig="0" hairStyleConfig="9" hairStyleConfigColor="6" headgearConfig="0" mustacheConfig="13" mustacheConfigColor="6" onepieceConfig="0" topConfig="10" topConfigColor="66" facegearConfig="0"/>
+    </player>
+    <player uniqueUserId="iLyIocY6MAaxTUsdI8FTsWgQ6JESPkws2uUcJw/jMp0=">
+        <style filename="dataS/character/humans/player/player01.xml" beardConfig="0" bottomConfig="0" faceConfig="1" faceConfigColor="1" footwearConfig="3" footwearConfigColor="3" glassesConfig="4" glassesConfigColor="1" glovesConfig="10" glovesConfigColor="42" hairStyleConfig="9" hairStyleConfigColor="16" headgearConfig="0" mustacheConfig="0" onepieceConfig="3" onepieceConfigColor="2" topConfig="0" facegearConfig="1" facegearConfigColor="1"/>
+    </player>
+    <player uniqueUserId="7O6Te7qqg9kmC2Iy1+aStid8QQwIoFoeaDMQT68F4rI=">
+        <style filename="dataS/character/humans/player/player01.xml" beardConfig="1" beardConfigColor="6" bottomConfig="1" bottomConfigColor="5" faceConfig="1" faceConfigColor="1" footwearConfig="3" footwearConfigColor="3" glassesConfig="1" glassesConfigColor="1" glovesConfig="5" glovesConfigColor="2" hairStyleConfig="11" hairStyleConfigColor="6" headgearConfig="1" headgearConfigColor="70" mustacheConfig="7" mustacheConfigColor="6" onepieceConfig="0" topConfig="2" topConfigColor="4" facegearConfig="0"/>
+    </player>
+    <player uniqueUserId="jd1TlTgC3Sd4xROfOrn652mqx4QTXJ2caOqsorfNOvg=">
+        <style filename="dataS/character/humans/player/player01.xml" beardConfig="31" beardConfigColor="6" bottomConfig="0" faceConfig="1" faceConfigColor="1" footwearConfig="7" footwearConfigColor="3" glassesConfig="3" glassesConfigColor="1" glovesConfig="9" glovesConfigColor="3" hairStyleConfig="16" hairStyleConfigColor="6" headgearConfig="4" headgearConfigColor="5" mustacheConfig="0" onepieceConfig="6" onepieceConfigColor="6" topConfig="0" facegearConfig="0"/>
+    </player>
+</players>

@@ -1,0 +1,182 @@
+﻿[
+  {
+    "row": {
+      "Data": "",
+      "Nº Doc": "",
+      "Descrição": "",
+      "Plano de Contas": "",
+      "Favorecido": "Saldo Inicial:",
+      "Entrada": "0,00",
+      "Saída": "0,00",
+      "Saldo": "0,00"
+    }
+  },
+  {
+    "row": {
+      "Data": "15/06/2021",
+      "Nº Doc": "",
+      "Descrição": "Brasiltec Virtual (RMB)",
+      "Plano de Contas": null,
+      "Favorecido": null,
+      "Entrada": "650,00",
+      "Saída": " - ",
+      "Saldo": "650,00"
+    }
+  },
+  {
+    "row": {
+      "Data": "15/06/2021",
+      "Nº Doc": "",
+      "Descrição": "Brasiltec Virtual (RMB)",
+      "Plano de Contas": null,
+      "Favorecido": null,
+      "Entrada": " - ",
+      "Saída": "5,00",
+      "Saldo": "645,00"
+    }
+  },
+  {
+    "row": {
+      "Data": "15/06/2021",
+      "Nº Doc": "",
+      "Descrição": "Brasiltec Virtual (RMB)",
+      "Plano de Contas": null,
+      "Favorecido": null,
+      "Entrada": "250,00",
+      "Saída": " - ",
+      "Saldo": "895,00"
+    }
+  },
+  {
+    "row": {
+      "Data": "15/06/2021",
+      "Nº Doc": "",
+      "Descrição": "Brasiltec Virtual (RMB)",
+      "Plano de Contas": null,
+      "Favorecido": null,
+      "Entrada": " - ",
+      "Saída": " - ",
+      "Saldo": "895,00"
+    }
+  },
+  {
+    "row": {
+      "Data": "16/06/2021",
+      "Nº Doc": "",
+      "Descrição": "Brasiltec Virtual (RMB)",
+      "Plano de Contas": "COMPRA DE MERCADORIAS NO BRASIL",
+      "Favorecido": "YUEQING GONBRE IMPORT & EXPORT CO., LTD",
+      "Entrada": " - ",
+      "Saída": " - ",
+      "Saldo": "895,00"
+    }
+  },
+  {
+    "row": {
+      "Data": "16/06/2021",
+      "Nº Doc": "",
+      "Descrição": "Brasiltec Virtual (RMB)",
+      "Plano de Contas": "COMPRA DE MERCADORIAS NO BRASIL",
+      "Favorecido": "YUEQING GONBRE IMPORT & EXPORT CO., LTD",
+      "Entrada": " - ",
+      "Saída": " - ",
+      "Saldo": "895,00"
+    }
+  },
+  {
+    "row": {
+      "Data": "16/06/2021",
+      "Nº Doc": "",
+      "Descrição": "Brasiltec Virtual (RMB)",
+      "Plano de Contas": "COMPRA DE MERCADORIAS NO BRASIL",
+      "Favorecido": "YUEQING GONBRE IMPORT & EXPORT CO., LTD",
+      "Entrada": " - ",
+      "Saída": " - ",
+      "Saldo": "895,00"
+    }
+  },
+  {
+    "row": {
+      "Data": "16/06/2021",
+      "Nº Doc": "",
+      "Descrição": "Brasiltec Virtual (RMB)",
+      "Plano de Contas": "COMPRA DE MERCADORIAS NO BRASIL",
+      "Favorecido": "YUEQING GONBRE IMPORT & EXPORT CO., LTD",
+      "Entrada": " - ",
+      "Saída": " - ",
+      "Saldo": "895,00"
+    }
+  },
+  {
+    "row": {
+      "Data": "16/06/2021",
+      "Nº Doc": "",
+      "Descrição": "Brasiltec Virtual (RMB)",
+      "Plano de Contas": "COMPRA DE MERCADORIAS NA CHINA",
+      "Favorecido": "HANGYUN ELECTRIC TECHNOLOGY CO., LTD",
+      "Entrada": " - ",
+      "Saída": "500,00",
+      "Saldo": "395,00"
+    }
+  },
+  {
+    "row": {
+      "Data": "16/06/2021",
+      "Nº Doc": "",
+      "Descrição": "Brasiltec Virtual (RMB)",
+      "Plano de Contas": "COMPRA DE MERCADORIAS NO BRASIL",
+      "Favorecido": "HANGYUN ELECTRIC TECHNOLOGY CO., LTD",
+      "Entrada": " - ",
+      "Saída": "100,00",
+      "Saldo": "295,00"
+    }
+  },
+  {
+    "row": {
+      "Data": "16/06/2021",
+      "Nº Doc": "",
+      "Descrição": "Brasiltec Virtual (RMB)",
+      "Plano de Contas": "COMPRA DE MERCADORIAS NO BRASIL",
+      "Favorecido": "HANGYUN ELECTRIC TECHNOLOGY CO., LTD",
+      "Entrada": " - ",
+      "Saída": "95,00",
+      "Saldo": "200,00"
+    }
+  },
+  {
+    "row": {
+      "Data": "16/06/2021",
+      "Nº Doc": "",
+      "Descrição": "Brasiltec Virtual (RMB)",
+      "Plano de Contas": "COMPRA DE MERCADORIAS NA CHINA",
+      "Favorecido": "ZHEJIANG ZHENGLUN ELECTRIC CO., LTD",
+      "Entrada": " - ",
+      "Saída": "10,00",
+      "Saldo": "190,00"
+    }
+  },
+  {
+    "row": {
+      "Data": "16/06/2021",
+      "Nº Doc": "",
+      "Descrição": "Brasiltec Virtual (RMB)",
+      "Plano de Contas": "COMPRA DE MERCADORIAS NA CHINA",
+      "Favorecido": "ZHEJIANG ZHENGLUN ELECTRIC CO., LTD",
+      "Entrada": " - ",
+      "Saída": "10,00",
+      "Saldo": "180,00"
+    }
+  },
+  {
+    "row": {
+      "Data": "",
+      "Nº Doc": "",
+      "Descrição": "",
+      "Plano de Contas": "",
+      "Favorecido": "Totais",
+      "Entrada": " - ",
+      "Saída": "10,00",
+      "Saldo": "180,00"
+    }
+  }
+]

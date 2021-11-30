@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ptBr">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/assets/bootstrap-4.1.3-dist/css/bootstrap.min.css?v=1">
+    <link rel="stylesheet" type="text/css" href="/assets/fontawesome-free-5.12.0-web/css/all.min.css">
+    <style>
+
+        .editor {
+            background: rgb(204,204,204);
+            overflow: auto;
+
+        }
+
+        page {
+           /* transform: scale(1.4);*/
+            background: white;
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 0.5cm;
+            width: 595px;
+            padding: 20px;
+            zoom: 130%;
+            background-size: 10px 10px;
+            background-image:
+                    linear-gradient(to right, #eeeeee 1px, transparent 1px),
+                    linear-gradient(to bottom, #eeeeee 1px, transparent 1px);
+        }
+        page_area {
+            width: 555px;
+        }
+
+
+        .section {
+            border: 1px solid #6781e9;
+            min-height: 10px;
+            position: relative;
+            margin-bottom: 2px;
+        }
+
+        .element {
+            position: absolute;
+            border: 1px solid #d6d3ff;
+            cursor: pointer;
+            background-color: transparent;
+        }
+
+        .element:hover {
+            border: 1px dashed #494fdd;
+        }
+
+        .ui-resizable-se {
+            width: 5px;
+            height: 5px;
+            position: absolute;
+            background-color: #ffe000;
+            border: 1px solid #000000;
+            top: 100%;
+            left: 100%;
+            right: 0px;
+            bottom: 0px;
+            z-index: 9999;
+        }
+    </style>
+</head>
+<body>
+<div class="container-fluid mt-3">
+    <div class="row">
+        <div class="col-lg-12 ">
+            <div class="border">
+                <div class="components border-bottom">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <a class="navbar-brand " href="#">
+                            <span style="color: #c6c6c6">JR</span>
+                        </a>
+
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="#">
+                                        <i class="fal fa-database"></i>
+                                    </a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="#" id="btn-compilar">
+                                        <i class="fal fa-print"></i>
+                                    </a>
+                                </li>
+                            </ul>
+
+                            <ul class="navbar-nav ml-auto">
+                                <li class="d-flex">
+                                    <div class="mt-auto mb-auto">
+                                        <input type="range" min="75" max="300" onchange="$('page').css('zoom', this.value+'%')">
+                                    </div>
+                                </li>
+                            </ul>
+
+
+                        </div>
+                    </nav>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-2">
+                       <div class="row">
+                           <div class="col-lg-12">
+                               <small class="ml-1 text-black-50">Sections</small>
+                           </div>
+                           <div class="col-lg-12">
+                              <div class="row">
+                                  <div class="col-lg-12 ml-2">
+                                      <div>
+                                          <input type="checkbox" id="ch" class="item" value="" > Title
+                                      </div>
+                                      <div>
+                                          <input type="checkbox" id="ch" class="item" value="" > Column Header
+                                      </div>
+                                      <div>
+                                          <input type="checkbox" id="ch" class="item" value="" > Detail
+                                      </div>
+                                  </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-12">
+                               <small class="ml-1 text-black-50">Data Source</small>
+                           </div>
+                           <div class="col-lg-12">
+                               <div class="row">
+                                   <div class="col-lg-12 ml-2">
+                                        <div><i class="fad fa-database"></i> Extrato Bancário</div>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="col-lg-12">
+                               <small class="ml-1 text-black-50">Columns</small>
+                           </div>
+                           <div class="col-lg-12">
+                               <div class="row">
+                                   <div class="col-lg-12 ml-2">
+                                       <div><i class="fal fa-database"></i> Data</div>
+                                       <div><i class="fal fa-database"></i> Conta Bancário</div>
+                                       <div><i class="fal fa-database"></i> Favorecido</div>
+                                       <div><i class="fal fa-database"></i> Crédito</div>
+                                       <div><i class="fal fa-database"></i> Débito</div>
+                                       <div><i class="fal fa-database"></i> Saldo</div>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                    </div>
+
+                    <div class="col-lg-8">
+                        <div class="editor" style="height: 80vh; padding-top: 10px">
+
+                            <page class="shadow border-0">
+                                <page_area>
+                                    <div class="section title" section="title" title="Title" style="height: 58px">
+                                        <div class="element textField" element="textField" style="width: 554px; height: 24px; font-size: 14px; font-weight: bold; top: 0px; left: 1px">"Conta"</div>
+                                        <div class="element textField" element="textField" style="width: 554px; height: 24px; font-size: 12px; font-weight: bold; top: 25px; left: 0px">"Statement of  "+$P{PERIODO}</div>
+                                    </div>
+                                    <div class="section columnHeader" section="columnHeader" title="Column Header" style="height: 20px">
+
+                                        <div class="element textField " element="textField" style="width: 43px; height: 20px; font-size: 8px; font-weight: bold; top: 0px; left: 1px">
+                                            "Data"
+                                        </div>
+                                        <div class="element textField" element="textField" style="width: 168px; height: 20px; font-size: 8px; font-weight: bold; top: 0px; left: 76px">
+                                            "Favorecido"
+                                        </div>
+                                        <div class="element textField" element="textField" style="width: 65px; height: 20px; font-size: 8px; font-weight: bold; top: 0px; left: 338px">
+                                            "Crédito"
+                                        </div>
+                                        <div class="element textField" element="textField" style="width: 65px; height: 20px; font-size: 8px; font-weight: bold; top: 0px; left: 415px">
+                                            "Débito"
+                                        </div>
+                                        <div class="element textField" element="textField" style="width: 65px; height: 20px; font-size: 8px; font-weight: bold; top: 0px; left: 489px">
+                                            "Saldo"
+                                        </div>
+
+                                    </div>
+                                    <div class="section detail" section="detail" title="Detail" style="height: 15px">
+
+                                        <div class="element textField" element="textField" style="width: 65px; height: 15px; font-size: 8px; font-weight: bold; top: 0px; left: 1px">
+                                            ""
+                                        </div>
+                                        <div class="element textField" element="textField" style="width: 245px; height: 15px; font-size: 8px; font-weight: bold; top: 0px; left: 76px">
+                                            ""
+                                        </div>
+                                        <div class="element textField" element="textField" style="width: 65px; height: 15px; font-size: 8px; font-weight: bold; top: 0px; left: 338px">
+                                            ""
+                                        </div>
+                                        <div class="element textField" element="textField" style="width: 65px; height: 15px; font-size: 8px; font-weight: bold; top: 0px; left: 415px">
+                                            ""
+                                        </div>
+                                        <div class="element textField" element="textField" style="width: 65px; height: 15px; font-size: 8px; font-weight: bold; top: 0px; left: 489px">
+                                            ""
+                                        </div>
+
+                                    </div>
+                                </page_area>
+                            </page>
+
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2">
+                        <div class="row">
+                            <div class="col-lg-12 pl-0">
+                                <small class="text-black-50">Properties</small>
+                            </div>
+                            <div class="col-lg-12 pr-4 pl-0">
+                                <table class="table table-sm table-bordered" style="font-size: 13px">
+                                    <tr>
+                                        <td style="width: 40%">Expression</td>
+                                        <td class="p-0 m-0">
+                                            <input type="text" class="border-0 form-control form-control-sm rounded-0 ht">
+                                        </td>
+                                    </tr>
+                                    <!--<tr>
+                                        <td style="width: 40%">Top</td>
+                                        <td class="p-0 m-0">
+                                            <input type="text" class="border-0 form-control form-control-sm rounded-0 tt">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width: 40%">Left</td>
+                                        <td class="p-0 m-0">
+                                            <input type="text" class="border-0 form-control form-control-sm rounded-0 ff">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width: 40%">Width</td>
+                                        <td class="p-0 m-0">
+                                            <input type="text" class="border-0 form-control form-control-sm rounded-0 ww">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width: 40%">Height</td>
+                                        <td class="p-0 m-0">
+                                            <input type="text" class="border-0 form-control form-control-sm rounded-0 hh">
+                                        </td>
+                                    </tr>-->
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="/assets/jquery-ui-1.12.1.custom/jquery-ui-full.js"></script>
+<script src="/assets/bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<script src="ireport.js?v=1"></script>
+</body>
+</html>
